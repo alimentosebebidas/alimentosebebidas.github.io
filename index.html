@@ -6,22 +6,25 @@
 
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
     <title>Mise en place - Café da manhã</title>
+    <link rel="icon" href="imagens\mise-en-place.svg" type="image/icon type">
   </head>
   <body>
-
-    <div>
       <header>
+        <!-- NAVEGAÇÃO DO SITE -->
         <nav>
           <div class="container navegacao">
             <a class="navbar-item" href="#">Mise en place</a>
             <div class="links">
               <a class="navbar-item" href="#principal">Principal</a>
-              <a class="navbar-item"href="#">Variações</a>
+              <a class="navbar-item"href="#variacoes">Variações</a>
             </div>
           </div>
         </nav>
+        <!-- NAVEGAÇÃO DO SITE -->
       </header>
 
       <section class="hero is-fullheight">
@@ -42,21 +45,24 @@
       </div>
 
       <main>
-        <section class="section scroll-container">
+        <section class="section">
           <div class="container">
             <div class="columns">
+              <!-- COLUNA DO VÍDEO -->
               <div class="column is-4">
                 <video class="box" width="320px" height="450px" autoplay muted loop>
                   <source src="imagens/videomiseenplace.mp4" type="video/mp4">
                   <source src="movie.og" type="video/ogg">
                 </video>
+                <!-- COLUNA DO VÍDEO -->
               </div>
 
+              <!-- COLUNA DE INTRODUÇÃO -->
               <div class="column">
-                <div class="message">
+                <div class="message is-dark">
                   <div class="message-body">
                     <div class="content">
-                      <h2 class="title" >
+                      <h2 class="title">
                         Sobre o <em>mise en place</em> para café da manhã
                       </h2>
                       <p class="block">
@@ -81,30 +87,179 @@
                       </p>
 
                       <p class="block">
-                        Ao lado, mostramos um exemplo de <em>mise en place</em> para um café da manhã.
+                        Ao lado, mostramos um exemplo de <em>mise en place</em> para um café da manhã. Abaixo, mais imagens da composição feita.
+                      </p>
+
+                      <br>
+
+                      <p class="block">
+                        <div class="columns is-centered">
+                          <div class="column is-half box">
+                            <div class="w3-content w3-display-container">
+                              <img class="mySlides1" src="imagens\visaofrente.jpg">
+                              <img class="mySlides1" src="imagens\visaolado.jpg">
+                              <img class="mySlides1" src="imagens\visaolado2.jpg">
+
+                              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+                              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+                            </div>
+                          </div>
+                        </div>
                       </p>
                     </div>
+                  </div>
+                </div>
+                <!-- COLUNA DE INTRODUÇÃO -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <hr id="variacoes">
+        </div>
+
+        <section class="section">
+          <div class="container">
+            <div class="varia-titulo">
+              <h2 class="titulo2">Variações</h2>
+              <p class="block">
+                Duas variações chamam atenção e merecem lugar de destaque aqui: o <strong>café da manhã continental</strong> e o <strong>café da manhã inglês</strong>.
+              </p>
+            </div>
+
+            <div class="columns">
+
+              <!-- COLUNA DE VARIAÇÃO -->
+              <div class="column">
+                <h3 class="title">Café da manhã continental</h3>
+                <div class="message">
+                  <div class="message-body varia-descricao">
+                    <div class="content">
+                      <p class="block">
+                        <strong>Café da manhã continental</strong>: café da manhã rápido e leve que pode ser servido diretamente à mesa, é típico de italianos e franceses. <a href="http://www.casasemorlandovip.com.br/hospedagem/continental-breakfast/#:~:text=O%20termo%20“Continental%20Breakfast”%20faz,%2C%20vegetais%2C%20pães%2C%20bolos%2C" target="_blank">Clique aqui</a> para saber mais.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p class="block">
+                    A composição do <em>mise en place</em> para este serviço é a seguinte:
+                  </p>
+
+                  <ul>
+                    <li>pratinho;</li>
+                    <li>guardanapo;</li>
+                    <li>faca pequena;</li>
+                    <li>colher de chá;</li>
+                    <li>xícara e pires.</li>
+                  </ul>
+
+                  <p class="block">
+                    A colher de chá pode ser colocada no pires ou ao lado da faca. Há também uma terceira forma onde a colher de chá pode ser colocada no prato, na posição dos talheres de sobremesa.
+                  </p>
+                </div>
+              </div>
+              <!-- COLUNA DE VARIAÇÃO -->
+
+              <div class="column">
+                <div class="container box">
+                  <div class="w3-content w3-display-container">
+                    <img class="mySlides2" src="imagens\continental1.jpeg">
+                    <img class="mySlides2" src="imagens\continental2.jpeg">
+
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
 
-        <section class="section">
+          <div class="container">
+            <hr>
+          </div>
+
           <div class="container">
             <div class="columns">
               <div class="column">
+                <h3 class="title">Café da manhã inglês</h3>
 
+                <div class="message">
+                  <div class="message-body">
+                    <div class="content">
+                      <strong>Café da manhã inglês</strong>: inclui um buffet farto com preparações doces e salgadas. Este tipo de serviço é muito procurado por clientes estrangeiros. <a href="https://inamara.com/english-breakfast-cafe-da-manha-ingles-ina-london/" target="
+                      ">Clique aqui</a> para saber mais.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p class="block">
+                    A composição do <em>mise en place</em> para este serviço é a seguinte:
+                  </p>
+
+                  <ul>
+                    <li>garfo pequeno;</li>
+                    <li>toalha de mesa;</li>
+                    <li>faca pequena;</li>
+                    <li>colher de chá;</li>
+                    <li>pires e xícara.</li>
+                  </ul>
+
+                  <p class="block">
+                    Dada a grande variedade de alimentos, incluindo saladas, a <em>mise en place</em> também inclui um pequeno garfo. O prato não é necessário porque está no buffet.
+                  </p>
+                </div>
               </div>
 
               <div class="column">
+                <div class="container">
+                  <figcaption class="image box">
+                    <img src="imagens/ingles2.jpeg" alt="">
+                  </figcaption>
 
+                  <figcaption class="image box">
+                    <img src="imagens/ingles1.jpeg" alt="">
+                  </figcaption>
+                </div>
               </div>
             </div>
           </div>
         </section>
       </main>
-    </div>
+
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>Alimentos e Bebidas</p>
+          <p><strong>Ewerton Franco</strong> & <strong>Noah Marques</strong></p>
+          <p>2021</p>
+        </div>
+      </footer>
+
+
+
+    <script>
+    var slideIndex = [1,1];
+    var slideId = ["mySlides1", "mySlides2"]
+    showDivs(1, 0);
+    showDivs(1, 1);
+
+    function plusDivs(n, no) {
+    showDivs(slideIndex[no] += n, no);
+    }
+
+    function showDivs(n, no) {
+    var i;
+    var x = document.getElementsByClassName(slideId[no]);
+    if (n > x.length) {slideIndex[no] = 1}
+    if (n < 1) {slideIndex[no] = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex[no]-1].style.display = "block";
+    }
+    </script>
   </body>
 </html>
