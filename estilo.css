@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+
+    z-index: 1;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.links {
+  display: flex;
+}
+
+.hero {
+  background-color: #201335;
+}
+
+.titulo {
+  font-size: 60px;
+  letter-spacing: 6px;
+}
